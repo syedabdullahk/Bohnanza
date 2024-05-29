@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Game {
     private List<Player> players;
@@ -28,6 +27,7 @@ public class Game {
         while (!(state instanceof EndGameState)) {
             state.execute(this);
         }
+        state.execute(this);
     }
 
     public Deck getDeck() {
@@ -55,6 +55,7 @@ public class Game {
         this.state = state;
     }
 
+
     public void determineWinner() {
         Player winner = players.get(0);
         for (Player player : players) {
@@ -66,7 +67,7 @@ public class Game {
     }
 
     public static void main(String[] args) {
-        Game game = new Game(2); // Example with 2 players
+        Game game = new Game(2);
         game.start();
     }
 }
