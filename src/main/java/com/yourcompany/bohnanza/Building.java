@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 public class Building {
     private String name;
     private String beanType;
