@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 public class BeanCard {
     private String type;
     private int value;
@@ -19,4 +21,6 @@ public class BeanCard {
     public String toString() {
         return type + " (" + value + ")";
     }
+
+
 }

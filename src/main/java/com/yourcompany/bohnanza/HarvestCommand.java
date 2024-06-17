@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 public class HarvestCommand implements Command {
     private Player player;
     private int fieldIndex;
