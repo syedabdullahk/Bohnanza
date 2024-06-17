@@ -49,6 +49,7 @@ public class PlayerTurnState implements GameState {
                     continue;
                 case 6:
                     game.setState(new EndGameState());
+                   // game.getState().execute(game);
                     turnOver = true;
                     continue;
                 default:
