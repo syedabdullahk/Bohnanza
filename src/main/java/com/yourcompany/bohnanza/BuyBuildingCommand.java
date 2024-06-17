@@ -1,6 +1,6 @@
-package main.java.com.yourcompany.bohnanza;
+package com.yourcompany.bohnanza;
 
-import main.java.com.yourcompany.bohnanza.Building;
+import com.yourcompany.bohnanza.Building;
 
 import java.util.List;
 import java.util.Scanner;

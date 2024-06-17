@@ -4,30 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff5c8d99-e0b3-439c-9eac-4823eaa10832" name="Changes" comment="added Building purchase functionality" />
+    <list default="true" id="42bdb714-4f79-4f1e-89fd-6c1be965c451" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/BeanCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/BeanCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/BeanField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/BeanField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/BuyBuildingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/BuyBuildingCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/DrawCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/DrawCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/EndGameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/EndGameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/HarvestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/HarvestCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/PlantCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/PlantCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/PlayerTurnState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/PlayerTurnState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/TradeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yourcompany/bohnanza/TradeCommand.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2h8KH2n9hG7FUeDNw2yLrZDVvY7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2i0pt3RQUtO7i8jIPR1LPgoGH3S" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,8 +54,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ThinkPad/IdeaProjects/Bohnanza_v2/src",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,23 +64,78 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ThinkPad\IdeaProjects\Bohnanza_v2\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
+  <component name="RunManager" selected="Application.com.yourcompany.bohnanza.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.yourcompany.bohnanza.Game" />
+      <module name="bohnanza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.yourcompany.bohnanza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.yourcompany.bohnanza.Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yourcompany.bohnanza.Game" />
+      <module name="bohnanza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yourcompany.bohnanza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bohnanza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.yourcompany.bohnanza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.yourcompany.bohnanza" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.yourcompany.bohnanza.GameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Bohnanza2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Bohnanza2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.yourcompany.bohnanza.Game" />
+        <item itemvalue="Application.Game" />
+        <item itemvalue="JUnit.GameTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff5c8d99-e0b3-439c-9eac-4823eaa10832" name="Changes" comment="" />
-      <created>1716970177105</created>
+      <changelist id="42bdb714-4f79-4f1e-89fd-6c1be965c451" name="Changes" comment="" />
+      <created>1718637559481</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716970177105</updated>
-      <workItem from="1716970178175" duration="907000" />
+      <updated>1718637559481</updated>
+      <workItem from="1718637560591" duration="346000" />
     </task>
     <servers />
   </component>

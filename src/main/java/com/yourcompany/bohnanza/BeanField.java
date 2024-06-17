@@ -1,4 +1,4 @@
-package main.java.com.yourcompany.bohnanza;
+package com.yourcompany.bohnanza;
 
 import java.util.ArrayList;
 import java.util.List;

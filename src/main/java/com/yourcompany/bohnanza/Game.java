@@ -1,4 +1,4 @@
-package main.java.com.yourcompany.bohnanza;
+package com.yourcompany.bohnanza;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class Game {
     public Game(int numPlayers) {
         players = new ArrayList<>();
         for (int i = 1; i <= numPlayers; i++) {
-            players.add(new Player("main.java.com.yourcompany.bohnanza.Player " + i));
+            players.add(new Player("com.yourcompany.bohnanza.Player " + i));
         }
         deck = new Deck();
         this.availableBuildings = new ArrayList<>();
