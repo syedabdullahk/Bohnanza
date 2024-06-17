@@ -20,8 +20,9 @@ public class PlayerTurnState implements GameState {
             System.out.println("2. Harvest field");
             System.out.println("3. Draw a card");
             System.out.println("4. Trade");
-            System.out.println("5. Change turn");
-            System.out.println("6. End game");
+            System.out.println("5. Buy a building"); // New option for buying buildings
+            System.out.println("6. Change turn");
+            System.out.println("7. End game");
 
             int choice = scanner.nextInt();
             Command command;
@@ -42,12 +43,15 @@ public class PlayerTurnState implements GameState {
                     command = new TradeCommand(player, game);
                     break;
                 case 5:
+                    command = new BuyBuildingCommand(player, game);
+                    break;
+                case 6:
                     game.setState(new PlayerTurnState(game.getNextPlayer()));
                     turnOver = true;
                     continue;
-                case 6:
+                case 7:
                     game.setState(new EndGameState());
-                   // game.getState().execute(game);
+                    //game.getState().execute(game); // Ensure EndGameState logic is executed
                     turnOver = true;
                     continue;
                 default:

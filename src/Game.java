@@ -6,6 +6,7 @@ public class Game {
     private Deck deck;
     private GameState state;
     private int currentPlayerIndex;
+    private List<Building> availableBuildings;
 
     public Game(int numPlayers) {
         players = new ArrayList<>();
@@ -13,8 +14,19 @@ public class Game {
             players.add(new Player("Player " + i));
         }
         deck = new Deck();
+        this.availableBuildings = new ArrayList<>();
+        initializeBuildings();
         state = new PlayerTurnState(players.get(0));
         currentPlayerIndex = 0;
+    }
+    private void initializeBuildings() {
+        availableBuildings.add(new Building("Barn", "Kidney", 3, "Allows an extra field"));
+        availableBuildings.add(new Building("Market", "Soy Bean", 4, "Gain extra coins from trades"));
+        // Add more buildings as needed
+    }
+
+    public List<Building> getAvailableBuildings() {
+        return availableBuildings;
     }
 
     public void start() {
@@ -59,7 +71,7 @@ public class Game {
     public void determineWinner() {
         Player winner = players.get(0);
         for (Player player : players) {
-            if (player.getCoins() > winner.getCoins()) {
+            if (player.getTotalCoins() > winner.getTotalCoins()) {
                 winner = player;
             }
         }
