@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 import java.util.Scanner;
 
 public class TradeCommand implements Command {

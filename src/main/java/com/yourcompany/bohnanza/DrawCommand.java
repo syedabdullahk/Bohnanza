@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 public class DrawCommand implements Command {
     private Player player;
     private Deck deck;

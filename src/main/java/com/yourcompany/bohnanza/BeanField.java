@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,4 +31,12 @@ public class BeanField {
     public String toString() {
         return "Field: " + field.toString();
     }
+
+
+    public void addBean(BeanCard beanCard) {
+    }
+
+
+
+
 }

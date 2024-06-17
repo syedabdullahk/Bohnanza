@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 import java.util.Collections;
 import java.util.Stack;
 
@@ -26,6 +28,6 @@ public class Deck {
 
     @Override
     public String toString() {
-        return "Deck: " + cards.toString();
+        return "main.java.com.yourcompany.bohnanza.Deck: " + cards.toString();
     }
 }

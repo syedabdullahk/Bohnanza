@@ -1,3 +1,5 @@
+package main.java.com.yourcompany.bohnanza;
+
 public class EndGameState implements GameState {
     @Override
     public void execute(Game game) {
